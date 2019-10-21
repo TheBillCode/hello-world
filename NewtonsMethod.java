@@ -6,7 +6,7 @@ public class NewtonsMethod {
     final static double nthPlace = 0.0000000000001; //accuracy
 
     public static void main(String[] args) {
-        System.out.println(getNewton(3, 2, 0)); //x, start guess, blank
+        System.out.println(getNewton(2, 1.5, 0)); //x, start guess, blank
     }
     
     public static double getNewton(double x, double n, double n2) {
